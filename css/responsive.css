@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@media screen and (max-width: 800px) {
+.navbar-position{
+    margin-left: 0px;
+}
+
+.display-header{
+    display: block;
+}
+
+.display-space{
+    display: none;
+}
+    
+.max-width-1x{
+    max-width: 100%;
+}
+
+.max-width-2x{
+    max-width: 100%;
+}
+
+.max-width-3x{
+    max-width: 100%;
+}
+
+.max-width-4x{
+    max-width: 100%;
+}
+
+.max-width-5x{
+    max-width: 100%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.xs-block{
+    display: block;
+}
+
+.box-email{
+    width: 100%;
+}
+
+.form-email{
+    width: 100%;
+}
+
+.juduls-warna{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.39);
+}
+.judul-warna{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 1px rgba(255, 255, 255, 0.527);
+}
+.headers{
+    position: relative;
+    /* background-image: linear-gradient(180deg, rgb(236, 236, 236), rgb(204, 20, 7)); */
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    z-index: -1;
+    margin:  0 auto;
+}
+.header img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #ebe3e3, rgb(173, 10, 10));
+    opacity: .8;
+}
+.bg-header{
+    margin-top: 40%;
+    position: absolute;
+    z-index: 10;
+}
+
+.text-mitsu {
+    color: rgb(240, 235, 235);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.ceklis-data{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-ceklis{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.cekils-promo{
+    background-color:  rgb(18, 228, 35);
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+}
+.diskon {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-promo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-shadow: 3px 3px rgba(216, 82, 5, 0.452);
+    color: rgb(255, 255, 255);
+}
+.p-kredit{
+  color: rgb(238, 237, 237);  
+  text-decoration: line-through;
+  font-family: 'Roboto', sans-serif;
+  padding: 3px 5px;
+}
+
+.p-promo{
+   background-color: rgb(11, 161, 24);
+   color: rgb(238, 237, 237);
+   padding: 3px 5px;
+   border-radius: 5px;
+   font-family: 'Roboto', sans-serif;
+}
+.text-harga{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(238, 237, 237);
+    font-weight: 500;
+}
+.diskons {
+    margin-left: 5px;
+    background-color: rgb(11, 161, 24);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 50%;
+    text-shadow: 2px 2px blanchedalmond;
+}
+.waktu-promo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(236, 234, 234);
+}
+.psn-promo{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    color: rgb(238, 237, 237);
+    background-color: rgb(11, 161, 24);
+    border: none;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.psn-promo:hover{
+    cursor: pointer;
+    background-color: rgb(5, 112, 14);
+}
+
+.events {
+    border-top-left-radius: 10px;
+    position: relative;
+    text-align: center;
+    width: 60px;
+    background-color: #fff;
+    height: 25px;
+}
+
+#hari {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#jam {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#menit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#detik {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.hari::after {
+  content: "Hari";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -25px;
+  background-color: rgb(218, 60, 12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.jam::after {
+  content: "Jam";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -25px;
+  background-color: rgb(218, 60, 12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.menit::after {
+  content: "Menit";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -25px;
+  background-color: rgb(218, 60, 12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.detik::after {
+  content: "Detik";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -25px;
+  background-color: rgb(218, 60, 12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+
+}
+
+
+@media screen and (min-width: 1199px) {
+    .headers{
+        height: 100vh;
+    }
+
+    .header{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    }
+    .header::before{
+        z-index: 2;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #ebe3e3, rgb(173, 10, 10));
+    opacity: .7;
+    }
+
+    .header img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-header {
+        position: absolute;
+        top: 6%;
+        z-index: 3;
+        width: 100%;
+        height: 80vh;
+    }
+    .judul-warna{
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-shadow: 2px 1px rgba(255, 255, 255, 0.527);
+    }
+    .judul-warna{
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-shadow: 2px 1px rgba(255, 255, 255, 0.527);
+        font-size: 5rem;
+    }
+
+    .text-mitsu {
+        color: rgb(240, 235, 235);
+        font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .text-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 3.5rem !important;
+        text-shadow: 3px 3px rgba(216, 82, 5, 0.452);
+        color: rgb(255, 255, 255);
+    }
+    .ceklis-data{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .text-ceklis{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+    }
+    .cekils-promo{
+        background-color:  rgb(18, 228, 35);
+        border-radius: 50px;
+        border: none;
+        font-size: 2rem;
+    }
+    .diskon {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+    }
+    .text-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2.3rem;
+        text-shadow: 3px 3px rgba(216, 82, 5, 0.452);
+        color: rgb(255, 255, 255);
+    }
+    .p-kredit{
+        color: rgb(238, 237, 237);  
+        text-decoration: line-through;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px 5px;
+        font-size: 1.5rem !important;
+      }
+      .p-promo{
+        background-color: rgb(11, 161, 24);
+        color: rgb(238, 237, 237);
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem !important;
+     }
+     .text-harga{
+        font-family: 'Roboto', sans-serif;
+        color: rgb(238, 237, 237);
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .diskons {
+        margin-left: 5px;
+        background-color: rgb(11, 161, 24);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 50%;
+        text-shadow: 2px 2px blanchedalmond;
+        font-size: 3rem;
+    }
+    .waktu-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: rgb(236, 234, 234);
+    }
+   
+    .psn-promo{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 70px !important;
+        color: rgb(238, 237, 237);
+        background-color: rgb(11, 161, 24);
+        border: none;
+        padding: 6px 20px;
+        border-radius: 3px;
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .psn-promo:hover{
+        cursor: pointer;
+        background-color: rgb(5, 112, 14);
+    }
+    
+    .events {
+        border-top-left-radius: 10px;
+        position: relative;
+        text-align: center;
+        width: 60px;
+        background-color: #fff;
+        height: 25px;
+        padding-top: 10px;
+        text-align: center;
+        align-content: center;
+    }
+    
+    #hari {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    #jam {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    #menit {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    #detik {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    .hari{
+        height: 60px;
+        width: 100px;
+    }
+    .jam{
+        height: 60px;
+        width: 100px;
+    }
+    .menit{
+        height: 60px;
+        width: 100px;
+    }
+    .detik{
+        height: 60px;
+        width: 100px;
+    }
+    .hari::after {
+      content: "Hari";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .jam::after {
+      content: "Jam";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .menit::after {
+      content: "Menit";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .detik::after {
+      content: "Detik";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .headers{
+        height: 100vh;
+    }
+
+    .header{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    }
+    .header::before{
+    z-index: 2;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #ebe3e3, rgb(173, 10, 10));
+    opacity: .7;
+    }
+
+    .header img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-header {
+        position: absolute;
+        top: 6%;
+        z-index: 3;
+        width: 100%;
+        height: 80vh;
+    }
+    .judul-warna{
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-shadow: 2px 1px rgba(255, 255, 255, 0.527);
+    }
+    .judul-warna{
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-shadow: 2px 1px rgba(255, 255, 255, 0.527);
+        font-size: 2.5rem;
+    }
+
+    .text-mitsu {
+        color: rgb(240, 235, 235);
+        font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    .text-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2rem !important;
+        text-shadow: 3px 3px rgba(216, 82, 5, 0.452);
+        color: rgb(255, 255, 255);
+    }
+    .ceklis-data{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .text-ceklis{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    .cekils-promo{
+        background-color:  rgb(18, 228, 35);
+        border-radius: 50px;
+        border: none;
+        font-size: 1rem;
+    }
+    .diskon {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1rem;
+    }
+    .text-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-shadow: 3px 3px rgba(216, 82, 5, 0.452);
+        color: rgb(255, 255, 255);
+    }
+    .p-kredit{
+        color: rgb(238, 237, 237);  
+        text-decoration: line-through;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px 5px;
+        font-size: 1rem !important;
+      }
+      .p-promo{
+        background-color: rgb(11, 161, 24);
+        color: rgb(238, 237, 237);
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem !important;
+     }
+     .text-harga{
+        font-family: 'Roboto', sans-serif;
+        color: rgb(238, 237, 237);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .diskons {
+        margin-left: 5px;
+        background-color: rgb(11, 161, 24);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 50%;
+        text-shadow: 2px 2px blanchedalmond;
+        font-size: 1.5rem;
+    }
+    .waktu-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: rgb(236, 234, 234);
+    }
+   
+    .psn-promo{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 70px !important;
+        color: rgb(238, 237, 237);
+        background-color: rgb(11, 161, 24);
+        border: none;
+        padding: 6px 20px;
+        border-radius: 3px;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    .psn-promo:hover{
+        cursor: pointer;
+        background-color: rgb(5, 112, 14);
+    }
+    
+    .events {
+        border-top-left-radius: 10px;
+        position: relative;
+        text-align: center;
+        width: 60px;
+        background-color: #fff;
+        height: 25px;
+        padding-top: 10px;
+        text-align: center;
+        align-content: center;
+    }
+    
+    #hari {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    #jam {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    #menit {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    #detik {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    .hari{
+        height: 60px;
+        width: 100px;
+    }
+    .jam{
+        height: 60px;
+        width: 100px;
+    }
+    .menit{
+        height: 60px;
+        width: 100px;
+    }
+    .detik{
+        height: 60px;
+        width: 100px;
+    }
+    .hari::after {
+      content: "Hari";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .jam::after {
+      content: "Jam";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .menit::after {
+      content: "Menit";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+    .detik::after {
+      content: "Detik";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: -50px;
+      background-color: rgb(218, 60, 12);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      padding-top: 15px;
+    }
+
+}

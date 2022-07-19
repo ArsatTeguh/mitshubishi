@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bs5/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/logo2.png">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/angsuran.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+  <style>
+    *{
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    .containers {
+      
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      margin-bottom: 50px;
+      padding-top: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 180px;
+      height: 200px;
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+    }
+    .swiper-slide-active {
+        z-index: 1;
+        transform: scale(1.3);
+        transition: .4s;
+    }
+  </style>
+    
+    <title>Mitsubishi Cemara Medan</title>
+</head>
+
+<body>
+
+    <!--============================================================================ BG ==============================================================-->
+   
+    <!-- <img src="assets/header1.png" width="100%" class=" kecil mt-5 justify-content-center d-lg-none"> -->
+
+    <!--============================================================================ NAVBAR ==========================================================-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo1.png" alt="" width="170" height="26">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="nav nav-pills navbar-position">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active bg-active link-navbar" href="index.html">HOME</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="nav nav-pills">
+                    <li class="nav-item me-2">
+                        <a href="https://api.whatsapp.com/send?phone=6281376128387&text=Hallo%20MitsuBishi" class="nav-link btn-custom rounded shadow" id="btn-sign">Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--============================================================================1. Heading ==========================================================-->
+
+    <div class="container-fluid headers">   
+        <div class="header">
+            <img src="./assets/bgnew.png" alt="">
+        </div>
+            <div class="col-lg-6 bg-header ">
+                    <h2 class="text-center juduls-warna" > <span class="judul-warna"> Mitsu</span><span class="Judul-warnasi">bishi Cemara Medan</span></h2>
+                    <p class="max-width-4x bold-0 algin-center text-mitsu text-center"> Dealer Resmi
+                    PT. Sardana Indah Berlian Motor. Kami berkomitmen untuk memberikan kepuasan layanan dan promo menarik untuk Anda.
+                    </p>
+                    <h1 class="text-promo text-center mt-3" >Promo Bulan Ini </h1>
+                    <div class="ceklis-data mb-3 text-center">
+                        <p class=" text-ceklis" ><i class="cekils-promo fas fa-check-circle "></i> Mudah</p>
+                        <p class=" text-ceklis" ><i class="cekils-promo fas fa-check-circle "></i> Cepat</p>
+                        <p class="text-ceklis" ><i class="cekils-promo fas fa-check-circle "></i> Jemput Data</p>
+                    </div>
+                    <div class="diskon">
+                        <p class="p-kredit">Kredit:30% </p>
+                        <p class="p-promo">Promo Super </p>  
+                    </div>
+                    <h3 class="text-harga text-center mb-4">Cuma Kredit<span class="diskons">15%</span></h3>
+                    <h5 class="text-center waktu-promo">Event Promo Berakhir :</h5>
+                    <div class="container mb-2" style="display: flex; justify-content: space-around;">
+                    <div class="events hari">
+                        <div  class="event">
+                          <h4 id="hari"></h4>
+                        </div>
+                      </div>
+                    <div class="events jam">
+                        <div  class="event">
+                          <h4 id="jam"></h4> 
+                        </div>
+                      </div>
+                    <div  class="events menit">
+                        <div  class="event">
+                          <h4 id="menit"></h4> 
+                        </div>
+                      </div>
+                    <div  class="events detik">
+                        <div  class="event">
+                          <h4 id="detik"></h4> 
+                        </div>
+                      </div>
+                      </div>
+                      <a href="https://api.whatsapp.com/send?phone=6281376128387&text=Hallo%20MitsuBishi">
+                     <button class="psn-promo mt-5">Pesan Sekarang</button>
+                     </a>
+                    
+            </div>
+
+    </div> 
+    
+    <!--================================ SLIDER ================================================== -->
+
+    <!--============================================================================ 3. Clients ==========================================================-->
+   
+    <div class="bg-clients py-3">
+        <div class="container">
+            <div class="card" style="width: 18rem; margin: 0 auto;">
+                <img src="assets/profil1.png" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title py-1 text-center bold-3">Budi Setiawan Lubis S.E </h5>
+                  <p class="text-center bold-2">SALES SUPERVISOR</p>
+                  <p class=" text-center ">PT. Sardana Indah Berlian Motor</p>
+                  <p class=" text-center ">Mitsubishi Cemara Medan</p>
+                  <a href="https://api.whatsapp.com/send?phone=6282367691494&text=Hallo%20MitsuBishi" class="btn btn-success mt-2">WhatApp</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+
+        
+<div class="container">             
+<div class="containers">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider2.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider3.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider4.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider5.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider6.png" />
+          </div>
+          <div class="swiper-slide">
+            <img class="images" src="images/slider/slider7.png" />
+          </div>
+          
+      
+</div>
+</div>
+</div>
+<br><br><br><br>
+    <div class="container text-center">
+
+        <nav>
+    <!--====================================== LIST MENU ====================================================-->
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Pajero Sport</button>
+
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">X-Pander</button>
+
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">L-300</button>
+
+              <button class="nav-link" id="nav-eclips-tab" data-bs-toggle="tab" data-bs-target="#nav-eclips" type="button" role="tab" aria-controls="nav-eclips" aria-selected="false">Eclips Cross</button>
+
+              <button class="nav-link" id="nav-outlander-tab" data-bs-toggle="tab" data-bs-target="#nav-outlander" type="button" role="tab" aria-controls="nav-outlander" aria-selected="false">Outlander Sport</button>
+
+              <button class="nav-link" id="nav-triton-tab" data-bs-toggle="tab" data-bs-target="#nav-triton" type="button" role="tab" aria-controls="nav-triton" aria-selected="false">Triton</button>
+
+              <button class="nav-link" id="nav-coltdesel-tab" data-bs-toggle="tab" data-bs-target="#nav-coltdesel" type="button" role="tab" aria-controls="nav-coltdesel" aria-selected="false">ColtDesel</button>
+
+              <button class="nav-link" id="nav-fuso-tab" data-bs-toggle="tab" data-bs-target="#nav-fuso" type="button" role="tab" aria-controls="nav-fuso" aria-selected="false">FUSO</button>
+
+            </div>
+
+
+       
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+
+    <!--====================================== PAJERO SPORT ====================================================-->             
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row justify-content-center">
+                    <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                    <h1 class="h2 text-center bold-2 mt-2 mb-5">PAJERO SPORT</h1>
+        
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/pajero/pajero2.png" width="100%" class="img">
+
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New PAJERO SPORT 2.5L GLX (4X4) 5M/T</h5>
+                                    <P>Rp. 555.000.000</P> 
+                                 <a button href="Details.html?id=0" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                  </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/pajero/pajero3.png" width="100%" class="img">
+
+                                <div class="alert alert-success mb-0" role="alert">
+                                  <h5>New PAJERO SPORT 2.4L Dakar Ultimate (4x2) 8A/T</h5>
+                                  <P>Rp. 650.000.000</P>
+                                    <a button href="Details.html?id=1" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/pajero/pajero6.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New PAJERO SPORT 2.4L Dakar Ultimate (4x4) 8A/T</h5>
+                                    <P>Rp. 705.000.000</P>
+                                    <a button href="Details.html?id=2" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-12"><br><br><br></div>
+                </div>
+            </div>
+     <!--====================================== X-PANDER ====================================================-->    
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                <div class="row justify-content-center">
+                    <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                    <h1 class="h2 text-center bold-2 mt-2 mb-5">X-PANDER SERIES</h1>
+        
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander1.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander SPORT M/T</h5>
+                                    <P>Rp. 292.000.000"</P>
+                                    <a button href="Details.html?id=3" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander2.png" width="100%" class="img"> 
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander GLS CVT</h5>
+                                    <P>Rp. 268.500.000</P>
+                                    <a button href="Details.html?id=4" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander3.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander Cross CVT 1.5L Plus</h5>
+                                    <P>Rp. 326.000.000</P>
+                                    <a button href="Details.html?id=5" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander4.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander Cross CVT 1.5L</h5>
+                                    <P>Rp. 315.500.000</P>
+                                    <a button href="Details.html?id=6" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander5.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander GLS M/T</h5>
+                                    <P>Rp. 295.500.000</P>
+                                    <a button href="Details.html?id=7" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander6.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander Cross 1.5L M/T</h5>
+                                    <P>Rp. 301.500.000</P>
+                                    <a button href="Details.html?id=8" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander7.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander Exceed CVT</h5>
+                                    <P>Rp. 281.000.000</P>
+                                    <a button href="Details.html?id=9" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/x-pander/x-pander8.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>New Xpander Exceed M/T</h5>
+                                    <P>Rp. 273.000.000</P>
+                                    <a button href="Details.html?id=10" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12"><br><br><br></div>
+                </div>
+            </div>
+     <!--====================================== L-300 ====================================================-->     
+            
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                <div class="row justify-content-center">
+                    <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                    <h1 class="h2 text-center bold-2 mt-2 mb-5">L-300 SERIES</h1>
+        
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/l-300/l-300-1.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>PICK UP Standard</h5>
+                                    <P>Rp. 219.000.000</P>
+                                    <a button href="Details.html?id=11" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/l-300/l-300-2.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>PICK UP Flatdeck</h5>
+                                    <P>Rp. 220.000.000</P>
+                                    <a button href="Details.html?id=12" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/l-300/l-300-3.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>PICK UP Cabin Chasis</h5>
+                                    <P>Rp. 214.500.000</P>
+                                    <a button href="Details.html?id=13" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-lg-12"><br><br><br></div>
+                </div>
+            </div>
+     <!--====================================== ECLIPS CROSS ====================================================-->     
+            
+            <div class="tab-pane fade" id="nav-eclips" role="tabpanel" aria-labelledby="nav-eclips-tab">
+
+                <div class="row justify-content-center">
+                    <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                    <h1 class="h2 text-center bold-2 mt-2 mb-5">ECLIPS CROSS SERIES</h1>
+        
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/eclips/eclips1.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Eclipse Cross Ultimate A/T 1.5L Turbo (Amethyst Black)</h5>
+                                    <P>Rp. 500.100.000</P>
+                                    <a button href="Details.html?id=14" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/eclips/eclips2.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Eclipse Cross Ultimate A/T 1.5L Turbo (Sikly White)</h5>
+                                    <P>Rp. 503.100.000</P>
+                                    <a button href="Details.html?id=15" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/eclips/eclpis3.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Eclipse Cross Ultimate A/T 1.5L Turbo (Red Dimond)</h5>
+                                    <P>Rp. 505.100.000</P>
+                                    <a button href="Details.html?id=16" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12"><br><br><br></div>
+                </div>
+            </div>
+         <!--====================================== Outlinder Sport ====================================================-->     
+            
+             <div class="tab-pane fade" id="nav-outlander" role="tabpanel" aria-labelledby="nav-outlander-tab">
+
+                <div class="row justify-content-center">
+                    <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                    <h1 class="h2 text-center bold-2 mt-2 mb-5">OUTLINDER SPORT SERIES</h1>
+        
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/outlander/outlander1.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Outlander Sport GLX</h5>
+                                    <P>Rp. 359.500.000</P>
+                                    <a button href="Details.html?id=17" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/outlander/outlander2.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Outlander Sport GLS</h5>
+                                    <P>Rp. 377.500.000</P>
+                                    <a button href="Details.html?id=18" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/outlander/outlnader3.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Outlander Sport PX</h5>
+                                    <P>Rp. 403.800.000</P>
+                                    <a button href="Details.html?id=19" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/outlander/outlnader4.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Oulander Sport PX Action</h5>
+                                    <P>Rp. 411.000.000</P>
+                                    <a button href="Details.html?id=20" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="card border-0 shadow rounded">
+                            <div class="card-body p-0">
+                                <img src="images/outlander/outlander5.png" width="100%" class="img">
+                                <div class="alert alert-success mb-0" role="alert">
+                                    <h5>Outlander PHEV 2.4L</h5>
+                                    <P>Rp. 890.000.000</P>
+                                    <a button href="Details.html?id=21" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-12"><br><br><br></div>
+                </div>
+            </div>
+         <!--====================================== TRITON ====================================================-->     
+            
+         <div class="tab-pane fade" id="nav-triton" role="tabpanel" aria-labelledby="nav-triton-tab">
+
+            <div class="row justify-content-center">
+                <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                <h1 class="h2 text-center bold-2 mt-2 mb-5">TRITON SERIES</h1>
+    
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton1.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L SC GLX (4X2) M/T Single Cab 2WD</h5>
+                                <P>Rp. 278.000.000</P>
+                                <a button href="Details.html?id=22" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton1.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L SC HDX (4X4) M/T Double Cab 4WD</h5>
+                                <P>Rp. 407.500.000</P>
+                                <a button href="Details.html?id=23" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton3.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L DC HDX (4X4) M/T Double Cab 4WD</h5>
+                                <P>Rp. 464.500.000</P>
+                                <a button href="Details.html?id=24" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton4.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L DC GLS (4X4) M/T Double Cab 4WD</h5>
+                                <P>Rp. 486.000.000</P>
+                                <a button href="Details.html?id=25" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton4.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L DC EXCEED (4X4) M/T Double Cab 4WD</h5>
+                                <P>Rp. 546.500.000</P>
+                                <a button href="Details.html?id=26" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/triton/triton4.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Triton 2.4L DC ULTIMATE (4X4) A/T Double Cab 4WD</h5>
+                                <P>Rp. 575.000.000</P>
+                                <a button href="Details.html?id=27" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+                <div class="col-lg-12"><br><br><br></div>
+            </div>
+        </div>
+         <!--====================================== ColtDisel ====================================================-->     
+            
+         <div class="tab-pane fade" id="nav-coltdesel" role="tabpanel" aria-labelledby="nav-coltdesel-tab">
+
+            <div class="row justify-content-center">
+                <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                <h1 class="h2 text-center bold-2 mt-2 mb-5">COLTDIESEL SERIES</h1>
+    
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col1.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 LBC Non-Cabin (BUS)</h5>
+                                <P>Rp. 352.400.000</P>
+                                <a button href="Details.html?id=28" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col2.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 Long  BC (BUS)</h5>
+                                <P>Rp. 363.500.000</P>
+                                <a button href="Details.html?id=29" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col3.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 BC (BUS)</h5>
+                                <P>Rp. 348.000.000</P>
+                                <a button href="Details.html?id=30" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col4.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 L</h5>
+                                <P>Rp. 374.000.000</P>
+                                <a button href="Details.html?id=31" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col5.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 PS</h5>
+                                <P>Rp. 369.000.000</P>
+                                <a button href="Details.html?id=32" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/coltdiesel/col6.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FE 71 M/T</h5>
+                                <P>Rp. 362.500.000</P>
+                                <a button href="Details.html?id=33" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+               
+
+
+                <div class="col-lg-12"><br><br><br></div>
+            </div>
+        </div>
+        
+          <!--====================================== FUSO ====================================================-->     
+            
+          <div class="tab-pane fade" id="nav-fuso" role="tabpanel" aria-labelledby="nav-fuso-tab">
+
+            <div class="row justify-content-center">
+                <h1 class="h5 text-center bold-0 mt-3">MITSUBITHSI</h1>
+                <h1 class="h2 text-center bold-2 mt-2 mb-5">FUSO SERIES</h1>
+    
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso1.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FZ 4028 4 X 2 (Tractor Head)</h5>
+                                <P>Rp. 966.000.000</P>
+                                <a button href="Details.html?id=34" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso2.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FN 527 6 X 4 (Fuso)</h5>
+                                <P>Rp. 1.087.000.000</P>
+                                <a button href="Details.html?id=35" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso3.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FN 527 MS 6 X 4 (Fuso)</h5>
+                                <P>Rp. 1.073.500.000</P>
+                                <a button href="Details.html?id=36" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso4.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FN 517 ML2 SUPER LONG 6 X 2 (Fuso)</h5>
+                                <P>Rp. 960.500.000</P>
+                                <a button href="Details.html?id=37" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso5.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FN 517 ML2 6 X 2 (Fuso)</h5>
+                                <P>Rp. 948.000.000</P>
+                                <a button href="Details.html?id=38" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso6.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FM 517 HL LONG 4 X 2 (Fuso)</h5>
+                                <P>Rp. 842.500.000</P>
+                                <a button href="Details.html?id=39" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso7.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FM 517 HL 4 X 2 (Fuso)</h5>
+                                <P>Rp. 837.000.000</P>
+                                <a button href="Details.html?id=40" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso8.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>Fuso FM 517 HS 4 X 2 (Fuso)</h5>
+                                <P>Rp. 806.500.000</P>
+                                <a button href="Details.html?id=41" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso9.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FM 65 FM HI GEAR 4 X 2 MT (Tractor Head)</h5>
+                                <P>Rp. 846.500.000</P>
+                                <a button href="Details.html?id=42" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso10.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FM 65 FM 4 X 2 M/T (Tractor Head)</h5>
+                                <P>Rp. 829.500.000</P>
+                                <a button href="Details.html?id=43" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso11.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FM 65 FL HI GEAR 4 X 2 (Tractor Head)</h5>
+                                <P>Rp. 865.000.000</P>
+                                <a button href="Details.html?id=44" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso12.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FM 65 FL 4 X 2 (Tractor Head)</h5>
+                                <P>Rp. 846.000.000</P>
+                                <a button href="Details.html?id=45" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso13.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+                                <h5>FM 65 HI GEAR 4 X 2 (Tractor Head)</h5>
+                                <P>Rp. 840.000.000</P>
+                                <a button href="Details.html?id=46" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow rounded">
+                        <div class="card-body p-0">
+                            <img src="images/fuso/fuso14.png" width="100%" class="img">
+                            <div class="alert alert-success mb-0" role="alert">
+
+                                <h5>FM 65 FS 4 X 2 (Tractor Head)</h5>
+                                <P>Rp. 835.000.000</P>
+                                <a button href="Details.html?id=47" type="button" class="btn btn-warning mx-2" id="btn-aksi">Cek Angsuran</a>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+        
+
+          </div>
+    </div>
+
+
+    <!--============================================================================2. How it work ==========================================================-->
+    <div class="container">
+
+        <div class="row justify-content-center my-5">
+            <h1 class="h2 text-center bold-2 mt-2 mb-3" style="z-index: 1;">Apa Yang Kami Berikan Kepada Anda ? </h1>
+
+            <div class="col-lg-4 col-md-4 my-2 py-2 "  style=" background-color: rgba(238, 234, 234, 0.253);border-style: inset;">
+                <h1 class="h5 text-center bold-1" ><i class="ceklis fas fa-check-circle "></i> Pelayanan</h1>
+                <br>
+                <center>
+                    <p class="text-center max-width-2x">Melayani Pembelian Kredit dan Tunai, Serta Proses Mudah dan Cepat.</p>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 my-2 py-2 "  style=" background-color: rgba(194, 190, 190, 0.253); border-style: inset;">
+                <h1 class="h5 text-center bold-1"><i class="ceklis fas fa-check-circle"></i> Profesional</h1>
+                <br>
+                <center>
+                    <p class="text-center max-width-2x">Delivery bisa ke Rumah/Kantor, Serta Informasi Ketersediaan Stock Dan Data bisa dijemput.</p>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 my-2 py-2 "  style=" background-color: rgba(194, 190, 190, 0.253);border-style: inset;">
+                <h1 class="h5 text-center bold-1"><i class="ceklis fas fa-check-circle"></i> Terpecaya</h1>
+                <br>
+                <center>
+                    <p class="text-center max-width-2x">Kami Memiliki komitmen selalu Mengawasi Setiap Bentuk Transaksi Pembelian Unit sampai kepada Costumer, Seta Pelayanan Seterusnya.</p>
+                </center>
+            </div>
+             <!-- ==================== SLIDE ============================== -->
+     <div class="container mt-3 mb-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="https://www.dealermitsubishimedan.net/wp-content/uploads/2020/10/banerxpandercrossRF.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.dealermitsubishimedan.net/wp-content/uploads/2020/10/Baner-xpanderCrossRF.jpg" class="d-block w-100 " alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- ============================ MAP ====================================================== -->
+            <div class="col-lg-12 col-mb-12  py-2 mt-4" style=" background-color: rgba(194, 190, 190, 0.253);">
+                <h3>Lokasi Kami Di MITSUBISHI CEMARA</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.7893037779677!2d98.69601451511672!3d3.63550799735462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313369d2395a97%3A0xec3f8b46ebff9696!2sMitsubishi%20Sardana%20Medan%20-%20Cemara%20Asri!5e0!3m2!1sid!2sid!4v1640199048570!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--============================================================================ 4.1 Modal Popoup Image ==========================================================-->
+    <div class="modal fade" role="dialog" id="imgmodal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content"></div>
+            <img class="img-responsive" src="" id="show-img" width="100%">
+        </div>
+    </div>
+
+    
+
+    <!--============================================================================ 6. Footer ==========================================================-->
+    <div class="container-fluid bg-dark">
+        <br><br><br>
+        <div class="row justify-content-between">
+            <div class="col-lg-4">
+                <div class="row">
+                    <h1 class="h4 bold-2" style="color: rgb(255, 255, 255) !important";>Mitsubishi Cemara</h1>
+                    <p class="max-width-2x my-3" style="color: rgb(160, 159, 159) !important";>Mitsubishi Cemara adalah Dealer Resmi dari PT. Sardana Indah Berlian Motor (Dealer Resmi Mitsubishi Cemara di Kota Medan) berkomitmen untuk memberikan kepuasan layanan dan promo menarik untuk Anda.</p>
+                </div>
+                <br>
+            </div>
+            <div class="col-lg-3">
+                <div class="row">
+            <ul>
+                <li class="logo"><a href="https://www.facebook.com/profile.php?id=100009561587188"><i class="fab fa-facebook" style="background-color: rgb(19, 83, 180);" ></i> Facebook</a> </li>
+                <li class="logo"><a href="https://www.instagram.com/sardanaberlianmotor/">
+                <i class="fab fa-instagram-square" style="background-color: rgb(201, 15, 145);" >
+                </i> Instagram</a> </li>
+                <li class="logo"><a href="https://api.whatsapp.com/send?phone=6281376128387&text=Hallo%20MitsuBishi">
+                <i class="fab fa-whatsapp" style="background-color: rgb(16, 163, 11);" ></i> WhatApp</a> </li>
+                <li class="logo"><a href="https://api.whatsapp.com/send?phone=6282367691494&text=Hallo%20MitsuBishi">
+                    <i class="fab fa-whatsapp" style="background-color: rgb(16, 163, 11);" ></i> WhatApp</a> </li>
+                <li class="logo"><a href="https://twitter.com/MitsubishiMitra?t=niqv9rGoQwurNqHxFPXSwg&s=08"><i class="fab fa-twitter-square" style="background-color: rgb(30, 120, 180);"></i> Twitter</a> </li>
+                <li class="logo"><a href="#"><i class="fas fa-envelope-square" style="background-color: rgb(206, 131, 19)"></i> bset9526@gmail.com</a> </li>
+            </ul>
+            <br>
+            </div>  
+        </div>
+
+    </div>
+    </div>  
+
+
+
+    <div class="container bg-primary py-2">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-between">
+                <span class="color-theme mb-3" style="color: wheat !important;">Copyright © 2021</span>
+                <span  class="color-theme  d-lg-block d-md-block" style="color: rgb(255, 255, 255) !important"; >Interactive ART Company All rights reserved</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bs5/dist/js/bootstrap.bundle.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="js/onscroll.js"></script>
+    <script src="js/popupimage.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 40,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop:true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable:true
+        },
+        autoplay: {
+            delay:500,
+            disableOnInteraction:false,
+        },
+      
+      });
+    </script>
+</body>
+
+</html>
